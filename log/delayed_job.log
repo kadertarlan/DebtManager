@@ -1,0 +1,9 @@
+# Logfile created on 2013-12-26 14:39:25 +0200 by logger.rb/31641
+2013-12-26T14:39:25+0200: [Worker(delayed_job host:tugcems-iMac.local pid:40242)] Starting job worker
+2013-12-26T14:39:25+0200: [Worker(delayed_job host:tugcems-iMac.local pid:40242)] Job MailerDebt (id=7) RUNNING
+2013-12-26T14:39:25+0200: [Worker(delayed_job host:tugcems-iMac.local pid:40242)] Job MailerDebt (id=7) COMPLETED after 0.1237
+2013-12-26T14:39:25+0200: [Worker(delayed_job host:tugcems-iMac.local pid:40242)] Job Class#debt_email (id=8) RUNNING
+2013-12-26T14:39:28+0200: [Worker(delayed_job host:tugcems-iMac.local pid:40242)] Job Class#debt_email (id=8) COMPLETED after 3.0719
+2013-12-26T14:39:28+0200: [Worker(delayed_job host:tugcems-iMac.local pid:40242)] Job Class#debt_email (id=9) RUNNING
+2013-12-26T14:39:32+0200: [Worker(delayed_job host:tugcems-iMac.local pid:40242)] Job Class#debt_email (id=9) COMPLETED after 3.3007
+2013-12-26T14:39:32+0200: [Worker(delayed_job host:tugcems-iMac.local pid:40242)] 3 jobs processed at 0.4600 j/s, 0 failed

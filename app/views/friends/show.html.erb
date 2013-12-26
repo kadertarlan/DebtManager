@@ -1,0 +1,22 @@
+<%- model_class = Friend -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.titleize %></h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt><strong><%= model_class.human_attribute_name(:name) %>:</strong></dt>
+  <dd><%= @friend.name %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:surname) %>:</strong></dt>
+  <dd><%= @friend.surname %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:twitterUsername) %>:</strong></dt>
+  <dd><%= @friend.twitterUsername %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:email) %>:</strong></dt>
+  <dd><%= @friend.email %></dd>
+</dl>
+
+<div class="form-actions">
+  <%= link_to t('.back', :default => t("helpers.links.back")),
+              user_friends_path(@user), :class => 'btn'  %>
+  <%= link_to t('.edit', :default => t("helpers.links.edit")),
+              edit_user_friend_path(@user, @friend), :class => 'btn' %>
+</div>
