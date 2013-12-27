@@ -5,5 +5,4 @@ class Friend < ActiveRecord::Base
   validates :email, :presence => true
   validates_format_of :email, :with => /\A[^@]+@([^@\.]+\.)+[^@\.]+\z/
   validates :twitterUsername, :presence => true
-  validates_format_of  :twitterUsername, :with => /@([\w]+)/
 end
