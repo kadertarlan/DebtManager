@@ -69,5 +69,6 @@ module DebtManager
       Delayed::Job.destroy_all if Delayed::Job.exists?
       Delayed::Job.enqueue(MailerDebt.new, :run_at => Time.zone.now.at_midnight)
     end
+
   end
 end
