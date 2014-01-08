@@ -11,6 +11,7 @@ namespace :db do
       friend.surname = Faker::Name.last_name
       friend.twitterUsername = Faker::Internet.user_name
       friend.email = Faker::Internet.email
+      friend.user_id = 1
     end
   end
 end

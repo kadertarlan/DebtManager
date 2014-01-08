@@ -20376,3 +20376,962 @@ Connecting to database specified by database.yml
   [1m[35m (0.1ms)[0m  begin transaction
   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Fri, 27 Dec 2013 15:02:48 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Fri, 27 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Fri, 27 Dec 2013 15:02:48 UTC +00:00]]
   [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (221.3ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.6ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 24]]
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (20.6ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 08:34:43 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 08:34:43 UTC +00:00]]
+  [1m[35m (16.4ms)[0m  commit transaction
+  [1m[36mSQL (1.5ms)[0m  [1mDELETE FROM "delayed_jobs"[0m
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (3.7ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 08:40:01 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 08:40:01 UTC +00:00]]
+  [1m[35m (2.4ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (2.0ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (26.1ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 26]]
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 08:40:22 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 08:40:22 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.8ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (26.8ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 27]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 08:41:04 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 08:41:04 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateDebts (20131211115311)
+Migrating to DeviseCreateUsers (20131211121512)
+Migrating to CreateAuthentications (20131211123050)
+Migrating to AddTokensAndUsernameColumns (20131212162700)
+Migrating to CreateFriends (20131216074447)
+Migrating to DeleteAuthenticationId (20131216100735)
+Migrating to AddAuthenticationRefToDebts (20131216100924)
+Migrating to AddUserRefToDebts (20131216124855)
+Migrating to AddDebtsRefToUser (20131216161044)
+Migrating to AddUserRefToFriends (20131217085356)
+Migrating to AddEmailToFriendModel (20131217130829)
+Migrating to AddAuthTokenToUser (20131219120019)
+Migrating to CreateDelayedJobs (20131225085022)
+Migrating to AddConfirmableToUser (20131225085320)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.5ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 28]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 08:41:07 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 08:41:07 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (1.4ms)[0m  [1mCREATE TABLE "authentications" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "provider" varchar(255), "uid" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "oauth_token" varchar(255), "oauth_token_secret" varchar(255), "username" varchar(255)) [0m
+  [1m[35m (1.5ms)[0m  CREATE TABLE "debts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "from" varchar(255), "to_id" integer, "amount" varchar(255), "deadline" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "authentication_id" integer, "user_id" integer) 
+  [1m[36m (1.4ms)[0m  [1mCREATE INDEX "index_debts_on_authentication_id" ON "debts" ("authentication_id")[0m
+  [1m[35m (1.4ms)[0m  CREATE INDEX "index_debts_on_user_id" ON "debts" ("user_id")
+  [1m[36m (2.2ms)[0m  [1mCREATE TABLE "delayed_jobs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "priority" integer DEFAULT 0 NOT NULL, "attempts" integer DEFAULT 0 NOT NULL, "handler" text NOT NULL, "last_error" text, "run_at" datetime, "locked_at" datetime, "failed_at" datetime, "locked_by" varchar(255), "queue" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (1.3ms)[0m  CREATE INDEX "delayed_jobs_priority" ON "delayed_jobs" ("priority", "run_at")
+  [1m[36m (1.4ms)[0m  [1mCREATE TABLE "friends" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "surname" varchar(255), "twitterUsername" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "user_id" integer, "email" varchar(255)) [0m
+  [1m[35m (1.4ms)[0m  CREATE INDEX "index_friends_on_user_id" ON "friends" ("user_id")
+  [1m[36m (1.5ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "debt_id" integer, "authentication_token" integer, "confirmation_token" varchar(255), "confirmed_at" datetime, "confirmation_sent_at" datetime, "unconfirmed_email" varchar(255)) [0m
+  [1m[35m (1.4ms)[0m  CREATE INDEX "index_users_on_debt_id" ON "users" ("debt_id")
+  [1m[36m (2.3ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (1.7ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (1.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (1.5ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (2.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131225085320')
+  [1m[36m (1.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131211115311')[0m
+  [1m[35m (2.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131211121512')
+  [1m[36m (2.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131211123050')[0m
+  [1m[35m (2.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131212162700')
+  [1m[36m (2.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216074447')[0m
+  [1m[35m (1.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131216100735')
+  [1m[36m (2.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216100924')[0m
+  [1m[35m (1.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131216124855')
+  [1m[36m (2.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216161044')[0m
+  [1m[35m (1.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131217085356')
+  [1m[36m (3.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131217130829')[0m
+  [1m[35m (2.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131219120019')
+  [1m[36m (3.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131225085022')[0m
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.8ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.8ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 29]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 08:41:28 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 08:41:28 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (28.1ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 30]]
+  [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 08:41:37 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 08:41:37 UTC +00:00]]
+  [1m[35m (2.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (1.2ms)[0m  [1mCREATE TABLE "authentications" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "provider" varchar(255), "uid" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "oauth_token" varchar(255), "oauth_token_secret" varchar(255), "username" varchar(255)) [0m
+  [1m[35m (1.5ms)[0m  CREATE TABLE "debts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "from" varchar(255), "to_id" integer, "amount" varchar(255), "deadline" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "authentication_id" integer, "user_id" integer) 
+  [1m[36m (1.3ms)[0m  [1mCREATE INDEX "index_debts_on_authentication_id" ON "debts" ("authentication_id")[0m
+  [1m[35m (1.3ms)[0m  CREATE INDEX "index_debts_on_user_id" ON "debts" ("user_id")
+  [1m[36m (1.5ms)[0m  [1mCREATE TABLE "delayed_jobs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "priority" integer DEFAULT 0 NOT NULL, "attempts" integer DEFAULT 0 NOT NULL, "handler" text NOT NULL, "last_error" text, "run_at" datetime, "locked_at" datetime, "failed_at" datetime, "locked_by" varchar(255), "queue" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (2.2ms)[0m  CREATE INDEX "delayed_jobs_priority" ON "delayed_jobs" ("priority", "run_at")
+  [1m[36m (1.5ms)[0m  [1mCREATE TABLE "friends" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "surname" varchar(255), "twitterUsername" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "user_id" integer, "email" varchar(255)) [0m
+  [1m[35m (1.3ms)[0m  CREATE INDEX "index_friends_on_user_id" ON "friends" ("user_id")
+  [1m[36m (1.3ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "debt_id" integer, "authentication_token" integer, "confirmation_token" varchar(255), "confirmed_at" datetime, "confirmation_sent_at" datetime, "unconfirmed_email" varchar(255)) [0m
+  [1m[35m (1.4ms)[0m  CREATE INDEX "index_users_on_debt_id" ON "users" ("debt_id")
+  [1m[36m (2.0ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (1.6ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (2.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (1.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (1.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131225085320')
+  [1m[36m (1.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131211115311')[0m
+  [1m[35m (1.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131211121512')
+  [1m[36m (1.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131211123050')[0m
+  [1m[35m (1.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131212162700')
+  [1m[36m (2.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216074447')[0m
+  [1m[35m (3.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131216100735')
+  [1m[36m (1.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216100924')[0m
+  [1m[35m (2.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131216124855')
+  [1m[36m (2.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216161044')[0m
+  [1m[35m (1.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131217085356')
+  [1m[36m (1.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131217130829')[0m
+  [1m[35m (2.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131219120019')
+  [1m[36m (2.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131225085022')[0m
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (24.6ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 31]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 08:45:18 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 08:45:18 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-30 10:48:05 +0200
+Processing by DebtsController#index as HTML
+Completed 401 Unauthorized in 6ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-12-30 10:48:05 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/tugcemyalcin/.rvm/gems/ruby-1.9.3-p448@rails-3.2.13/gems/devise-3.2.2/app/views/devise/shared/_links.erb (25.8ms)
+  Rendered /Users/tugcemyalcin/.rvm/gems/ruby-1.9.3-p448@rails-3.2.13/gems/devise-3.2.2/app/views/devise/sessions/new.html.erb within layouts/application (36.9ms)
+Completed 200 OK in 177ms (Views: 130.3ms | ActiveRecord: 0.5ms)
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.9ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (27.9ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 32]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 08:49:17 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 08:49:17 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (1.4ms)[0m  [1mCREATE TABLE "authentications" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "provider" varchar(255), "uid" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "oauth_token" varchar(255), "oauth_token_secret" varchar(255), "username" varchar(255)) [0m
+  [1m[35m (1.5ms)[0m  CREATE TABLE "debts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "from" varchar(255), "to_id" integer, "amount" varchar(255), "deadline" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "authentication_id" integer, "user_id" integer) 
+  [1m[36m (1.3ms)[0m  [1mCREATE INDEX "index_debts_on_authentication_id" ON "debts" ("authentication_id")[0m
+  [1m[35m (1.3ms)[0m  CREATE INDEX "index_debts_on_user_id" ON "debts" ("user_id")
+  [1m[36m (1.6ms)[0m  [1mCREATE TABLE "delayed_jobs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "priority" integer DEFAULT 0 NOT NULL, "attempts" integer DEFAULT 0 NOT NULL, "handler" text NOT NULL, "last_error" text, "run_at" datetime, "locked_at" datetime, "failed_at" datetime, "locked_by" varchar(255), "queue" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (2.1ms)[0m  CREATE INDEX "delayed_jobs_priority" ON "delayed_jobs" ("priority", "run_at")
+  [1m[36m (1.6ms)[0m  [1mCREATE TABLE "friends" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "surname" varchar(255), "twitterUsername" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "user_id" integer, "email" varchar(255)) [0m
+  [1m[35m (1.4ms)[0m  CREATE INDEX "index_friends_on_user_id" ON "friends" ("user_id")
+  [1m[36m (1.5ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "debt_id" integer, "authentication_token" integer, "confirmation_token" varchar(255), "confirmed_at" datetime, "confirmation_sent_at" datetime, "unconfirmed_email" varchar(255)) [0m
+  [1m[35m (1.4ms)[0m  CREATE INDEX "index_users_on_debt_id" ON "users" ("debt_id")
+  [1m[36m (2.3ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (1.7ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (1.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (1.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (2.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131225085320')
+  [1m[36m (1.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131211115311')[0m
+  [1m[35m (2.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131211121512')
+  [1m[36m (1.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131211123050')[0m
+  [1m[35m (2.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131212162700')
+  [1m[36m (2.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216074447')[0m
+  [1m[35m (1.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131216100735')
+  [1m[36m (2.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216100924')[0m
+  [1m[35m (2.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131216124855')
+  [1m[36m (2.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216161044')[0m
+  [1m[35m (2.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131217085356')
+  [1m[36m (1.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131217130829')[0m
+  [1m[35m (3.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131219120019')
+  [1m[36m (2.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131225085022')[0m
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.8ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.3ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 33]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 08:50:43 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 08:50:43 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.5ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 34]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 08:50:51 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 08:50:51 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.3ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 35]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 08:53:19 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 08:53:19 UTC +00:00]]
+  [1m[35m (1.7ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (2.4ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.6ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 36]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 08:55:20 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 08:55:20 UTC +00:00]]
+  [1m[35m (3.9ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.5ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 37]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 08:56:07 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 08:56:07 UTC +00:00]]
+  [1m[35m (4.2ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.8ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 38]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 08:56:39 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 08:56:39 UTC +00:00]]
+  [1m[35m (3.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateDebts (20131211115311)
+Migrating to DeviseCreateUsers (20131211121512)
+Migrating to CreateAuthentications (20131211123050)
+Migrating to AddTokensAndUsernameColumns (20131212162700)
+Migrating to CreateFriends (20131216074447)
+Migrating to DeleteAuthenticationId (20131216100735)
+Migrating to AddAuthenticationRefToDebts (20131216100924)
+Migrating to AddUserRefToDebts (20131216124855)
+Migrating to AddDebtsRefToUser (20131216161044)
+Migrating to AddUserRefToFriends (20131217085356)
+Migrating to AddEmailToFriendModel (20131217130829)
+Migrating to AddAuthTokenToUser (20131219120019)
+Migrating to CreateDelayedJobs (20131225085022)
+Migrating to AddConfirmableToUser (20131225085320)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.8ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.4ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 39]]
+  [1m[36m (2.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 08:56:44 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 08:56:44 UTC +00:00]]
+  [1m[35m (1.7ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.8ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.3ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 40]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 08:57:13 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 08:57:13 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.5ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 41]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 09:01:15 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 09:01:15 UTC +00:00]]
+  [1m[35m (1.5ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.8ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (26.6ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 42]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 09:01:25 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 09:01:25 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (1.3ms)[0m  [1mCREATE TABLE "authentications" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "provider" varchar(255), "uid" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "oauth_token" varchar(255), "oauth_token_secret" varchar(255), "username" varchar(255)) [0m
+  [1m[35m (1.4ms)[0m  CREATE TABLE "debts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "from" varchar(255), "to_id" integer, "amount" varchar(255), "deadline" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "authentication_id" integer, "user_id" integer) 
+  [1m[36m (1.4ms)[0m  [1mCREATE INDEX "index_debts_on_authentication_id" ON "debts" ("authentication_id")[0m
+  [1m[35m (1.3ms)[0m  CREATE INDEX "index_debts_on_user_id" ON "debts" ("user_id")
+  [1m[36m (1.4ms)[0m  [1mCREATE TABLE "delayed_jobs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "priority" integer DEFAULT 0 NOT NULL, "attempts" integer DEFAULT 0 NOT NULL, "handler" text NOT NULL, "last_error" text, "run_at" datetime, "locked_at" datetime, "failed_at" datetime, "locked_by" varchar(255), "queue" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (1.8ms)[0m  CREATE INDEX "delayed_jobs_priority" ON "delayed_jobs" ("priority", "run_at")
+  [1m[36m (1.5ms)[0m  [1mCREATE TABLE "friends" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "surname" varchar(255), "twitterUsername" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "user_id" integer, "email" varchar(255)) [0m
+  [1m[35m (1.5ms)[0m  CREATE INDEX "index_friends_on_user_id" ON "friends" ("user_id")
+  [1m[36m (1.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "debt_id" integer, "authentication_token" integer, "confirmation_token" varchar(255), "confirmed_at" datetime, "confirmation_sent_at" datetime, "unconfirmed_email" varchar(255)) [0m
+  [1m[35m (1.3ms)[0m  CREATE INDEX "index_users_on_debt_id" ON "users" ("debt_id")
+  [1m[36m (1.4ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (1.4ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (1.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (1.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (1.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131225085320')
+  [1m[36m (2.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131211115311')[0m
+  [1m[35m (1.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131211121512')
+  [1m[36m (1.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131211123050')[0m
+  [1m[35m (1.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131212162700')
+  [1m[36m (2.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216074447')[0m
+  [1m[35m (3.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131216100735')
+  [1m[36m (4.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216100924')[0m
+  [1m[35m (3.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131216124855')
+  [1m[36m (2.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216161044')[0m
+  [1m[35m (2.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131217085356')
+  [1m[36m (3.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131217130829')[0m
+  [1m[35m (2.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131219120019')
+  [1m[36m (2.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131225085022')[0m
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.8ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.9ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 43]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 09:03:04 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 09:03:04 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (26.9ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 44]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 09:03:08 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 09:03:08 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (1.4ms)[0m  [1mCREATE TABLE "authentications" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "provider" varchar(255), "uid" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "oauth_token" varchar(255), "oauth_token_secret" varchar(255), "username" varchar(255)) [0m
+  [1m[35m (1.5ms)[0m  CREATE TABLE "debts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "from" varchar(255), "to_id" integer, "amount" varchar(255), "deadline" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "authentication_id" integer, "user_id" integer) 
+  [1m[36m (1.3ms)[0m  [1mCREATE INDEX "index_debts_on_authentication_id" ON "debts" ("authentication_id")[0m
+  [1m[35m (1.3ms)[0m  CREATE INDEX "index_debts_on_user_id" ON "debts" ("user_id")
+  [1m[36m (2.0ms)[0m  [1mCREATE TABLE "delayed_jobs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "priority" integer DEFAULT 0 NOT NULL, "attempts" integer DEFAULT 0 NOT NULL, "handler" text NOT NULL, "last_error" text, "run_at" datetime, "locked_at" datetime, "failed_at" datetime, "locked_by" varchar(255), "queue" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (1.4ms)[0m  CREATE INDEX "delayed_jobs_priority" ON "delayed_jobs" ("priority", "run_at")
+  [1m[36m (1.4ms)[0m  [1mCREATE TABLE "friends" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "surname" varchar(255), "twitterUsername" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "user_id" integer, "email" varchar(255)) [0m
+  [1m[35m (1.3ms)[0m  CREATE INDEX "index_friends_on_user_id" ON "friends" ("user_id")
+  [1m[36m (1.5ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "debt_id" integer, "authentication_token" integer, "confirmation_token" varchar(255), "confirmed_at" datetime, "confirmation_sent_at" datetime, "unconfirmed_email" varchar(255)) [0m
+  [1m[35m (2.1ms)[0m  CREATE INDEX "index_users_on_debt_id" ON "users" ("debt_id")
+  [1m[36m (1.4ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (1.4ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (1.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (1.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (1.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131225085320')
+  [1m[36m (1.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131211115311')[0m
+  [1m[35m (2.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131211121512')
+  [1m[36m (2.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131211123050')[0m
+  [1m[35m (2.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131212162700')
+  [1m[36m (2.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216074447')[0m
+  [1m[35m (3.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131216100735')
+  [1m[36m (3.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216100924')[0m
+  [1m[35m (2.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131216124855')
+  [1m[36m (1.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216161044')[0m
+  [1m[35m (2.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131217085356')
+  [1m[36m (3.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131217130829')[0m
+  [1m[35m (2.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131219120019')
+  [1m[36m (3.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131225085022')[0m
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.7ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 45]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 09:04:02 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 09:04:02 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (1.4ms)[0m  [1mCREATE TABLE "authentications" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "provider" varchar(255), "uid" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "oauth_token" varchar(255), "oauth_token_secret" varchar(255), "username" varchar(255)) [0m
+  [1m[35m (1.3ms)[0m  CREATE TABLE "debts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "from" varchar(255), "to_id" integer, "amount" varchar(255), "deadline" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "authentication_id" integer, "user_id" integer) 
+  [1m[36m (1.4ms)[0m  [1mCREATE INDEX "index_debts_on_authentication_id" ON "debts" ("authentication_id")[0m
+  [1m[35m (1.4ms)[0m  CREATE INDEX "index_debts_on_user_id" ON "debts" ("user_id")
+  [1m[36m (2.1ms)[0m  [1mCREATE TABLE "delayed_jobs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "priority" integer DEFAULT 0 NOT NULL, "attempts" integer DEFAULT 0 NOT NULL, "handler" text NOT NULL, "last_error" text, "run_at" datetime, "locked_at" datetime, "failed_at" datetime, "locked_by" varchar(255), "queue" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (2.0ms)[0m  CREATE INDEX "delayed_jobs_priority" ON "delayed_jobs" ("priority", "run_at")
+  [1m[36m (1.4ms)[0m  [1mCREATE TABLE "friends" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "surname" varchar(255), "twitterUsername" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "user_id" integer, "email" varchar(255)) [0m
+  [1m[35m (1.4ms)[0m  CREATE INDEX "index_friends_on_user_id" ON "friends" ("user_id")
+  [1m[36m (2.5ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "debt_id" integer, "authentication_token" integer, "confirmation_token" varchar(255), "confirmed_at" datetime, "confirmation_sent_at" datetime, "unconfirmed_email" varchar(255)) [0m
+  [1m[35m (1.3ms)[0m  CREATE INDEX "index_users_on_debt_id" ON "users" ("debt_id")
+  [1m[36m (1.4ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (1.4ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (1.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (1.5ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (1.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131225085320')
+  [1m[36m (2.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131211115311')[0m
+  [1m[35m (2.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131211121512')
+  [1m[36m (1.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131211123050')[0m
+  [1m[35m (1.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131212162700')
+  [1m[36m (2.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216074447')[0m
+  [1m[35m (1.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131216100735')
+  [1m[36m (2.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216100924')[0m
+  [1m[35m (2.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131216124855')
+  [1m[36m (2.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216161044')[0m
+  [1m[35m (3.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131217085356')
+  [1m[36m (3.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131217130829')[0m
+  [1m[35m (2.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131219120019')
+  [1m[36m (2.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131225085022')[0m
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.8ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 46]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 09:04:09 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 09:04:09 UTC +00:00]]
+  [1m[35m (1.7ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (2.0ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.1ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 47]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 09:04:50 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 09:04:50 UTC +00:00]]
+  [1m[35m (2.5ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.6ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (26.8ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 48]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 09:04:52 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 09:04:52 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.3ms)[0m  [1mCREATE TABLE "authentications" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "provider" varchar(255), "uid" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "oauth_token" varchar(255), "oauth_token_secret" varchar(255), "username" varchar(255)) [0m
+  [1m[35m (1.5ms)[0m  CREATE TABLE "debts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "from" varchar(255), "to_id" integer, "amount" varchar(255), "deadline" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "authentication_id" integer, "user_id" integer) 
+  [1m[36m (1.4ms)[0m  [1mCREATE INDEX "index_debts_on_authentication_id" ON "debts" ("authentication_id")[0m
+  [1m[35m (1.4ms)[0m  CREATE INDEX "index_debts_on_user_id" ON "debts" ("user_id")
+  [1m[36m (1.9ms)[0m  [1mCREATE TABLE "delayed_jobs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "priority" integer DEFAULT 0 NOT NULL, "attempts" integer DEFAULT 0 NOT NULL, "handler" text NOT NULL, "last_error" text, "run_at" datetime, "locked_at" datetime, "failed_at" datetime, "locked_by" varchar(255), "queue" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (1.5ms)[0m  CREATE INDEX "delayed_jobs_priority" ON "delayed_jobs" ("priority", "run_at")
+  [1m[36m (1.6ms)[0m  [1mCREATE TABLE "friends" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "surname" varchar(255), "twitterUsername" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "user_id" integer, "email" varchar(255)) [0m
+  [1m[35m (1.4ms)[0m  CREATE INDEX "index_friends_on_user_id" ON "friends" ("user_id")
+  [1m[36m (1.7ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "debt_id" integer, "authentication_token" integer, "confirmation_token" varchar(255), "confirmed_at" datetime, "confirmation_sent_at" datetime, "unconfirmed_email" varchar(255)) [0m
+  [1m[35m (1.9ms)[0m  CREATE INDEX "index_users_on_debt_id" ON "users" ("debt_id")
+  [1m[36m (1.7ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (1.6ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (1.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (2.1ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (1.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131225085320')
+  [1m[36m (2.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131211115311')[0m
+  [1m[35m (2.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131211121512')
+  [1m[36m (1.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131211123050')[0m
+  [1m[35m (1.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131212162700')
+  [1m[36m (3.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216074447')[0m
+  [1m[35m (3.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131216100735')
+  [1m[36m (1.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216100924')[0m
+  [1m[35m (2.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131216124855')
+  [1m[36m (2.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216161044')[0m
+  [1m[35m (2.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131217085356')
+  [1m[36m (3.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131217130829')[0m
+  [1m[35m (2.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131219120019')
+  [1m[36m (1.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131225085022')[0m
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.7ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 49]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 09:05:26 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 09:05:26 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.3ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 50]]
+  [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 09:11:59 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 09:11:59 UTC +00:00]]
+  [1m[35m (1.7ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (2.2ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.1ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 51]]
+  [1m[36m (37.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 09:13:56 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 09:13:56 UTC +00:00]]
+  [1m[35m (25.7ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.6ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (27.0ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 52]]
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 09:27:35 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 09:27:35 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36mSQL (2.0ms)[0m  [1mDELETE FROM "friends"[0m
+  [1m[35mFriend Last ID (0.0ms)[0m  SELECT id FROM "friends" ORDER BY id DESC
+  [1m[36mFriend Populate (17.3ms)[0m  [1mINSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (1, 'Annette', 'White', 'angus', '2013-12-30 09:27:35.750426', '2013-12-30 09:27:35.750428', 1, 'aryanna@raynor.biz');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (2, 'Jaydon', 'Collier', 'mayra_ward', '2013-12-30 09:27:35.816038', '2013-12-30 09:27:35.816041', 1, 'jerrell_bogan@roberts.biz');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (3, 'Golden', 'Ernser', 'ivory', '2013-12-30 09:27:35.816296', '2013-12-30 09:27:35.816298', 1, 'elaina_lynch@rolfson.info');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (4, 'Shania', 'Shanahan', 'rosetta', '2013-12-30 09:27:35.816515', '2013-12-30 09:27:35.816516', 1, 'markus.lebsack@satterfield.net');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (5, 'Wiley', 'Koepp', 'wiley', '2013-12-30 09:27:35.816719', '2013-12-30 09:27:35.816721', 1, 'treie@jerderobel.net');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (6, 'Dario', 'McKenzie', 'emely.davis', '2013-12-30 09:27:35.816901', '2013-12-30 09:27:35.816902', 1, 'kaycee_howell@krajcik.name');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (7, 'Destini', 'Hilpert', 'alvera_crona', '2013-12-30 09:27:35.817109', '2013-12-30 09:27:35.817110', 1, 'ryann_jacobi@bechtelar.net');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (8, 'Golda', 'McKenzie', 'rubye', '2013-12-30 09:27:35.817336', '2013-12-30 09:27:35.817337', 1, 'aditya.padberg@kerluke.info');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (9, 'Bethany', 'Haley', 'elian_nader', '2013-12-30 09:27:35.817526', '2013-12-30 09:27:35.817527', 1, 'marcus@flatleymraz.com');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (10, 'Roman', 'Vandervort', 'rodolfo', '2013-12-30 09:27:35.817719', '2013-12-30 09:27:35.817720', 1, 'alford@friesenschuster.net');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (11, 'Makenzie', 'Smith', 'caidy', '2013-12-30 09:27:35.817908', '2013-12-30 09:27:35.817910', 1, 'laurel.botsford@moriette.biz');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (12, 'Albertha', 'Balistreri', 'seth', '2013-12-30 09:27:35.818134', '2013-12-30 09:27:35.818135', 1, 'isabell@pagac.info');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (13, 'Brigitte', 'Effertz', 'savion.wehner', '2013-12-30 09:27:35.818308', '2013-12-30 09:27:35.818310', 1, 'westley_lynch@grantquigley.info');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (14, 'Nash', 'Runte', 'barney', '2013-12-30 09:27:35.818519', '2013-12-30 09:27:35.818520', 1, 'abdiel@kihnmclaughlin.com');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (15, 'Duncan', 'Rowe', 'genesis', '2013-12-30 09:27:35.818691', '2013-12-30 09:27:35.818693', 1, 'toy.lang@hoeger.net');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (16, 'Reilly', 'Conn', 'matilda.schuppe', '2013-12-30 09:27:35.818902', '2013-12-30 09:27:35.818903', 1, 'elaina@oconner.com');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (17, 'William', 'Flatley', 'bridget', '2013-12-30 09:27:35.819089', '2013-12-30 09:27:35.819090', 1, 'delmer@christiansen.name');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (18, 'Emerald', 'Walker', 'gustave', '2013-12-30 09:27:35.819261', '2013-12-30 09:27:35.819262', 1, 'brycen@raynorkovacek.info');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (19, 'Leda', 'Conn', 'hilma.morar', '2013-12-30 09:27:35.819432', '2013-12-30 09:27:35.819434', 1, 'ettie@williamsonstreich.net');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (20, 'Zetta', 'Stracke', 'granville', '2013-12-30 09:27:35.819627', '2013-12-30 09:27:35.819628', 1, 'ivah@kuhnlueilwitz.com');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (21, 'Colten', 'Jakubowski', 'dorothy', '2013-12-30 09:27:35.819802', '2013-12-30 09:27:35.819804', 1, 'freda_bins@bartoletti.com');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (22, 'Baron', 'Ortiz', 'marshall', '2013-12-30 09:27:35.819988', '2013-12-30 09:27:35.819989', 1, 'jana.heel@kuhic.info');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (23, 'Travis', 'Altenwerth', 'laurine_doyle', '2013-12-30 09:27:35.820199', '2013-12-30 09:27:35.820200', 1, 'herbert@lemke.org');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (24, 'Nyasia', 'Lehner', 'margret', '2013-12-30 09:27:35.820384', '2013-12-30 09:27:35.820385', 1, 'emmie@cormierbruen.org');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (25, 'Aisha', 'Nienow', 'sterling_kris', '2013-12-30 09:27:35.820558', '2013-12-30 09:27:35.820559', 1, 'amiya_beer@ritchie.com');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (26, 'Annie', 'Fritsch', 'colton', '2013-12-30 09:27:35.820762', '2013-12-30 09:27:35.820763', 1, 'fidel@anderson.biz');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (27, 'Shanel', 'O''Keefe', 'arvel_buckridge', '2013-12-30 09:27:35.820929', '2013-12-30 09:27:35.820930', 1, 'concepcion_lindgren@schowalter.biz');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (28, 'Lenora', 'Yundt', 'hermann', '2013-12-30 09:27:35.821200', '2013-12-30 09:27:35.821201', 1, 'ernesto.hansen@hamill.info');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (29, 'Helmer', 'Mosciski', 'tevin', '2013-12-30 09:27:35.821403', '2013-12-30 09:27:35.821404', 1, 'zackery@robel.name');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (30, 'Helene', 'Pouros', 'wiley_romaguera', '2013-12-30 09:27:35.821593', '2013-12-30 09:27:35.821594', 1, 'sabryna.bednar@cremin.name');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (31, 'Lorine', 'Metz', 'nella_rolfson', '2013-12-30 09:27:35.821817', '2013-12-30 09:27:35.821818', 1, 'virgie.mraz@herzog.net');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (32, 'Bailee', 'Konopelski', 'bradly.connelly', '2013-12-30 09:27:35.822016', '2013-12-30 09:27:35.822018', 1, 'casper_macejkovic@kunde.com');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (33, 'Juliet', 'Lebsack', 'dino.ruecker', '2013-12-30 09:27:35.822221', '2013-12-30 09:27:35.822222', 1, 'cecile.bahringer@legros.com');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (34, 'Antonetta', 'King', 'xander', '2013-12-30 09:27:35.822459', '2013-12-30 09:27:35.822460', 1, 'cesar@hahnreilly.info');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (35, 'Fernando', 'Willms', 'destinee', '2013-12-30 09:27:35.822652', '2013-12-30 09:27:35.822653', 1, 'freeda_hirthe@lynch.org');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (36, 'Reanna', 'Hartmann', 'zechariah_lynch', '2013-12-30 09:27:35.822849', '2013-12-30 09:27:35.822850', 1, 'samir@deckow.com');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (37, 'Frieda', 'Padberg', 'daryl', '2013-12-30 09:27:35.823063', '2013-12-30 09:27:35.823064', 1, 'effie.abernathy@bradtke.biz');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (38, 'Mylene', 'Lehner', 'maxime.koepp', '2013-12-30 09:27:35.823271', '2013-12-30 09:27:35.823272', 1, 'gilbert@waters.com');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (39, 'Kay', 'Kuhic', 'carmen.dooley', '2013-12-30 09:27:35.823458', '2013-12-30 09:27:35.823459', 1, 'lavina@funk.net');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (40, 'Concepcion', 'Kshlerin', 'clemens', '2013-12-30 09:27:35.823642', '2013-12-30 09:27:35.823643', 1, 'sasha@larson.biz');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (41, 'Ona', 'Krajcik', 'maximillian', '2013-12-30 09:27:35.823832', '2013-12-30 09:27:35.823833', 1, 'mellie.morar@fahey.net');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (42, 'Eva', 'Huels', 'devin.ryan', '2013-12-30 09:27:35.824034', '2013-12-30 09:27:35.824035', 1, 'jeffrey_bergstrom@ratke.info');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (43, 'Lilliana', 'Walker', 'destin', '2013-12-30 09:27:35.824238', '2013-12-30 09:27:35.824239', 1, 'garret_bins@wunsch.org');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (44, 'Tremayne', 'Skiles', 'vicky', '2013-12-30 09:27:35.824425', '2013-12-30 09:27:35.824427', 1, 'narciso@sawayn.net');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (45, 'Jeanne', 'Kerluke', 'ariel', '2013-12-30 09:27:35.824611', '2013-12-30 09:27:35.824612', 1, 'carley.block@emmerichboehm.com');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (46, 'Melissa', 'Koss', 'marielle', '2013-12-30 09:27:35.824802', '2013-12-30 09:27:35.824803', 1, 'moriah@binsgraham.com');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (47, 'Whitney', 'Cartwright', 'mustafa', '2013-12-30 09:27:35.824971', '2013-12-30 09:27:35.824972', 1, 'jamar@huels.name');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (48, 'Danyka', 'Abbott', 'garrick', '2013-12-30 09:27:35.825142', '2013-12-30 09:27:35.825143', 1, 'rollin@kling.info');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (49, 'Myrl', 'Jerde', 'oceane.keebler', '2013-12-30 09:27:35.825331', '2013-12-30 09:27:35.825332', 1, 'jay@crona.biz');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (50, 'Kaleb', 'Monahan', 'angela', '2013-12-30 09:27:35.825515', '2013-12-30 09:27:35.825516', 1, 'chloe.mcdermott@spinka.name');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (51, 'Abdullah', 'Barrows', 'isobel', '2013-12-30 09:27:35.825702', '2013-12-30 09:27:35.825703', 1, 'solon@windler.org');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (52, 'Lonnie', 'Fadel', 'monty', '2013-12-30 09:27:35.825869', '2013-12-30 09:27:35.825870', 1, 'kip@breitenbergconroy.com');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (53, 'Gennaro', 'Emard', 'alia.kris', '2013-12-30 09:27:35.826044', '2013-12-30 09:27:35.826045', 1, 'kelsi@haag.info');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (54, 'Branson', 'Lebsack', 'florian.larson', '2013-12-30 09:27:35.826250', '2013-12-30 09:27:35.826251', 1, 'connor.kutch@hammes.org');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (55, 'Delta', 'Strosin', 'virgie', '2013-12-30 09:27:35.826469', '2013-12-30 09:27:35.826470', 1, 'abraham_cole@torphy.org');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (56, 'Katherine', 'Nikolaus', 'benton', '2013-12-30 09:27:35.826655', '2013-12-30 09:27:35.826656', 1, 'sidney_sporer@beckerlakin.org');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (57, 'Luz', 'Pfannerstill', 'kavon', '2013-12-30 09:27:35.826842', '2013-12-30 09:27:35.826843', 1, 'kristoffer_bode@leannonward.org');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (58, 'Stacey', 'Torphy', 'urban', '2013-12-30 09:27:35.827031', '2013-12-30 09:27:35.827032', 1, 'reese_hand@koepp.com');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (59, 'Julianne', 'Gulgowski', 'miracle.oconnell', '2013-12-30 09:27:35.827216', '2013-12-30 09:27:35.827217', 1, 'kiel@reynoldsrippin.info');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (60, 'Vern', 'D''Amore', 'mertie.mayert', '2013-12-30 09:27:35.827405', '2013-12-30 09:27:35.827406', 1, 'elisa@ferry.biz');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (61, 'Nathanial', 'Batz', 'hosea.reichel', '2013-12-30 09:27:35.827592', '2013-12-30 09:27:35.827593', 1, 'dejah.collier@heller.com');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (62, 'Ressie', 'Ferry', 'freida_cruickshank', '2013-12-30 09:27:35.827810', '2013-12-30 09:27:35.827811', 1, 'trever_bradtke@crooks.info');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (63, 'Rose', 'Jacobs', 'liliana_dubuque', '2013-12-30 09:27:35.828015', '2013-12-30 09:27:35.828016', 1, 'albertha@tremblayschamberger.biz');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (64, 'Amir', 'Shields', 'joaquin', '2013-12-30 09:27:35.828205', '2013-12-30 09:27:35.828206', 1, 'chaya_borer@cain.com');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (65, 'Bobbie', 'Langosh', 'dejon', '2013-12-30 09:27:35.828393', '2013-12-30 09:27:35.828394', 1, 'chesley_hegmann@hirthe.name');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (66, 'Jillian', 'Mraz', 'garret', '2013-12-30 09:27:35.828608', '2013-12-30 09:27:35.828609', 1, 'rylee@upton.net');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (67, 'Mohammed', 'Halvorson', 'kurtis', '2013-12-30 09:27:35.828780', '2013-12-30 09:27:35.828782', 1, 'lacey_jacobson@corwin.net');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (68, 'Tremaine', 'Brekke', 'nicholas', '2013-12-30 09:27:35.828971', '2013-12-30 09:27:35.828972', 1, 'rick@considine.biz');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (69, 'Allene', 'Kautzer', 'glenda', '2013-12-30 09:27:35.829166', '2013-12-30 09:27:35.829169', 1, 'hilario_wilderman@glover.info');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (70, 'Hanna', 'Carroll', 'rigoberto', '2013-12-30 09:27:35.829376', '2013-12-30 09:27:35.829377', 1, 'kip_terry@tremblay.name');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (71, 'Rick', 'Bins', 'johnpaul.bailey', '2013-12-30 09:27:35.829591', '2013-12-30 09:27:35.829592', 1, 'lue_lang@stark.org');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (72, 'Florence', 'Bailey', 'rosanna.hoeger', '2013-12-30 09:27:35.829817', '2013-12-30 09:27:35.829818', 1, 'mathew_gerlach@schulistkovacek.biz');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (73, 'Kariane', 'Kirlin', 'logan', '2013-12-30 09:27:35.830029', '2013-12-30 09:27:35.830030', 1, 'ava_armstrong@braun.net');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (74, 'Jedidiah', 'Daugherty', 'rafaela', '2013-12-30 09:27:35.830221', '2013-12-30 09:27:35.830222', 1, 'fannie@boyle.info');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (75, 'Lexi', 'Jakubowski', 'brandi', '2013-12-30 09:27:35.830394', '2013-12-30 09:27:35.830395', 1, 'diego@beckerpowlowski.com');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (76, 'Craig', 'Boyle', 'merl', '2013-12-30 09:27:35.830572', '2013-12-30 09:27:35.830573', 1, 'elinor@durgan.name');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (77, 'Wilfrid', 'Schaefer', 'orlo', '2013-12-30 09:27:35.830744', '2013-12-30 09:27:35.830746', 1, 'cierra@bergstrom.info');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (78, 'Albertha', 'Gerlach', 'brook_carter', '2013-12-30 09:27:35.830940', '2013-12-30 09:27:35.830941', 1, 'luigi@ferrythompson.info');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (79, 'Chadd', 'Gutkowski', 'beryl.rolfson', '2013-12-30 09:27:35.831136', '2013-12-30 09:27:35.831137', 1, 'florencio@rohan.com');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (80, 'Karlee', 'Vandervort', 'mitchel_koepp', '2013-12-30 09:27:35.831327', '2013-12-30 09:27:35.831328', 1, 'teresa.carroll@beer.info');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (81, 'Dylan', 'Mitchell', 'benton', '2013-12-30 09:27:35.831536', '2013-12-30 09:27:35.831537', 1, 'electa@crona.biz');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (82, 'Ryley', 'West', 'devonte.veum', '2013-12-30 09:27:35.831708', '2013-12-30 09:27:35.831710', 1, 'aurelia_bashirian@white.com');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (83, 'Brisa', 'Moore', 'garry', '2013-12-30 09:27:35.831916', '2013-12-30 09:27:35.831917', 1, 'lysanne_batz@littlestokes.biz');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (84, 'Arlene', 'Towne', 'jany', '2013-12-30 09:27:35.832110', '2013-12-30 09:27:35.832112', 1, 'edna@dickinson.info');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (85, 'Janet', 'Rippin', 'imogene', '2013-12-30 09:27:35.832301', '2013-12-30 09:27:35.832302', 1, 'ivah_reichert@adams.info');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (86, 'Jakob', 'Kohler', 'adelia.vandervort', '2013-12-30 09:27:35.832493', '2013-12-30 09:27:35.832494', 1, 'chelsie_smitham@swift.com');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (87, 'Malcolm', 'Wisozk', 'jacinto', '2013-12-30 09:27:35.832721', '2013-12-30 09:27:35.832722', 1, 'bettye@ritchieondricka.com');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (88, 'Barton', 'Toy', 'schuyler', '2013-12-30 09:27:35.832897', '2013-12-30 09:27:35.832898', 1, 'carlo@ritchie.net');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (89, 'Deshawn', 'Emmerich', 'paxton.renner', '2013-12-30 09:27:35.833092', '2013-12-30 09:27:35.833093', 1, 'otilia@mckenziestanton.com');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (90, 'Luis', 'Padberg', 'mariam.prosacco', '2013-12-30 09:27:35.833285', '2013-12-30 09:27:35.833286', 1, 'noemie@toyschuppe.org');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (91, 'Glenna', 'Macejkovic', 'rasheed', '2013-12-30 09:27:35.833480', '2013-12-30 09:27:35.833481', 1, 'laurine.batz@kiehn.biz');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (92, 'Jo', 'Blanda', 'orlando', '2013-12-30 09:27:35.833690', '2013-12-30 09:27:35.833691', 1, 'catherine_kozey@kingschuster.org');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (93, 'Titus', 'Lang', 'levi.conroy', '2013-12-30 09:27:35.833918', '2013-12-30 09:27:35.833919', 1, 'guadalupe.jakubowski@casper.net');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (94, 'Delbert', 'Dibbert', 'mozell_botsford', '2013-12-30 09:27:35.834134', '2013-12-30 09:27:35.834135', 1, 'norbert@dooley.name');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (95, 'Jayden', 'Brakus', 'brad_oconner', '2013-12-30 09:27:35.834350', '2013-12-30 09:27:35.834351', 1, 'sigmund@johnsonbauch.org');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (96, 'Spencer', 'Pollich', 'hazel_gaylord', '2013-12-30 09:27:35.834556', '2013-12-30 09:27:35.834557', 1, 'kayden.mohr@ondrickaruecker.com');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (97, 'Christy', 'Paucek', 'modesta_leuschke', '2013-12-30 09:27:35.834767', '2013-12-30 09:27:35.834768', 1, 'rickey.hackett@kshlerinwiza.name');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (98, 'Gaston', 'Larson', 'valerie.greenfelder', '2013-12-30 09:27:35.834974', '2013-12-30 09:27:35.834976', 1, 'layne@tremblay.info');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (99, 'Rowena', 'Harvey', 'luz_stark', '2013-12-30 09:27:35.835168', '2013-12-30 09:27:35.835169', 1, 'frieda@carroll.net');INSERT INTO "friends" ("id", "name", "surname", "twitterUsername", "created_at", "updated_at", "user_id", "email") VALUES (100, 'Carissa', 'White', 'lexus', '2013-12-30 09:27:35.835375', '2013-12-30 09:27:35.835378', 1, 'myrtle@jones.com')[0m
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.6ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.6ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 53]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 09:27:52 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 09:27:52 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.9ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.0ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 54]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 09:28:11 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 09:28:11 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.9ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 55]]
+  [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 09:30:37 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 09:30:37 UTC +00:00]]
+  [1m[35m (3.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.3ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 56]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 09:34:51 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 09:34:51 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.3ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 57]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 09:50:23 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 09:50:23 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.5ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 58]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 09:51:16 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 09:51:16 UTC +00:00]]
+  [1m[35m (2.0ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.9ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (27.1ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 59]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 09:51:36 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 09:51:36 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (1.4ms)[0m  [1mCREATE TABLE "authentications" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "provider" varchar(255), "uid" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "oauth_token" varchar(255), "oauth_token_secret" varchar(255), "username" varchar(255)) [0m
+  [1m[35m (1.5ms)[0m  CREATE TABLE "debts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "from" varchar(255), "to_id" integer, "amount" varchar(255), "deadline" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "authentication_id" integer, "user_id" integer) 
+  [1m[36m (1.3ms)[0m  [1mCREATE INDEX "index_debts_on_authentication_id" ON "debts" ("authentication_id")[0m
+  [1m[35m (1.3ms)[0m  CREATE INDEX "index_debts_on_user_id" ON "debts" ("user_id")
+  [1m[36m (2.2ms)[0m  [1mCREATE TABLE "delayed_jobs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "priority" integer DEFAULT 0 NOT NULL, "attempts" integer DEFAULT 0 NOT NULL, "handler" text NOT NULL, "last_error" text, "run_at" datetime, "locked_at" datetime, "failed_at" datetime, "locked_by" varchar(255), "queue" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (2.1ms)[0m  CREATE INDEX "delayed_jobs_priority" ON "delayed_jobs" ("priority", "run_at")
+  [1m[36m (1.4ms)[0m  [1mCREATE TABLE "friends" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "surname" varchar(255), "twitterUsername" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "user_id" integer, "email" varchar(255)) [0m
+  [1m[35m (1.4ms)[0m  CREATE INDEX "index_friends_on_user_id" ON "friends" ("user_id")
+  [1m[36m (1.7ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "debt_id" integer, "authentication_token" integer, "confirmation_token" varchar(255), "confirmed_at" datetime, "confirmation_sent_at" datetime, "unconfirmed_email" varchar(255)) [0m
+  [1m[35m (2.2ms)[0m  CREATE INDEX "index_users_on_debt_id" ON "users" ("debt_id")
+  [1m[36m (1.4ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (1.5ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (1.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (1.5ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (1.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131225085320')
+  [1m[36m (1.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131211115311')[0m
+  [1m[35m (2.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131211121512')
+  [1m[36m (2.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131211123050')[0m
+  [1m[35m (1.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131212162700')
+  [1m[36m (2.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216074447')[0m
+  [1m[35m (2.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131216100735')
+  [1m[36m (2.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216100924')[0m
+  [1m[35m (1.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131216124855')
+  [1m[36m (2.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216161044')[0m
+  [1m[35m (2.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131217085356')
+  [1m[36m (2.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131217130829')[0m
+  [1m[35m (2.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131219120019')
+  [1m[36m (2.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131225085022')[0m
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.6ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 60]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 09:52:27 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 09:52:27 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.3ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 61]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 09:53:32 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 09:53:32 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.8ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.5ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 62]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 09:54:19 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 09:54:19 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.7ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 63]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 09:55:05 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 09:55:05 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.9ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 64]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 10:01:18 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 10:01:18 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.8ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.6ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 65]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 10:02:30 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 10:02:30 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.6ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.2ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 66]]
+  [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 12:14:21 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 12:14:21 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.8ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (27.5ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 67]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 12:14:49 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 12:14:49 UTC +00:00]]
+  [1m[35m (1.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (1.2ms)[0m  [1mCREATE TABLE "authentications" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "provider" varchar(255), "uid" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "oauth_token" varchar(255), "oauth_token_secret" varchar(255), "username" varchar(255)) [0m
+  [1m[35m (1.6ms)[0m  CREATE TABLE "debts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "from" varchar(255), "to_id" integer, "amount" varchar(255), "deadline" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "authentication_id" integer, "user_id" integer) 
+  [1m[36m (1.4ms)[0m  [1mCREATE INDEX "index_debts_on_authentication_id" ON "debts" ("authentication_id")[0m
+  [1m[35m (1.3ms)[0m  CREATE INDEX "index_debts_on_user_id" ON "debts" ("user_id")
+  [1m[36m (2.4ms)[0m  [1mCREATE TABLE "delayed_jobs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "priority" integer DEFAULT 0 NOT NULL, "attempts" integer DEFAULT 0 NOT NULL, "handler" text NOT NULL, "last_error" text, "run_at" datetime, "locked_at" datetime, "failed_at" datetime, "locked_by" varchar(255), "queue" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (1.4ms)[0m  CREATE INDEX "delayed_jobs_priority" ON "delayed_jobs" ("priority", "run_at")
+  [1m[36m (1.5ms)[0m  [1mCREATE TABLE "friends" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "surname" varchar(255), "twitterUsername" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "user_id" integer, "email" varchar(255)) [0m
+  [1m[35m (1.6ms)[0m  CREATE INDEX "index_friends_on_user_id" ON "friends" ("user_id")
+  [1m[36m (1.8ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "debt_id" integer, "authentication_token" integer, "confirmation_token" varchar(255), "confirmed_at" datetime, "confirmation_sent_at" datetime, "unconfirmed_email" varchar(255)) [0m
+  [1m[35m (1.6ms)[0m  CREATE INDEX "index_users_on_debt_id" ON "users" ("debt_id")
+  [1m[36m (1.8ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (1.5ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (1.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (1.3ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (2.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131225085320')
+  [1m[36m (1.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131211115311')[0m
+  [1m[35m (1.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131211121512')
+  [1m[36m (1.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131211123050')[0m
+  [1m[35m (1.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131212162700')
+  [1m[36m (2.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216074447')[0m
+  [1m[35m (2.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131216100735')
+  [1m[36m (2.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216100924')[0m
+  [1m[35m (2.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131216124855')
+  [1m[36m (2.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216161044')[0m
+  [1m[35m (2.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131217085356')
+  [1m[36m (4.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131217130829')[0m
+  [1m[35m (1.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131219120019')
+  [1m[36m (1.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131225085022')[0m
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.3ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 68]]
+  [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 12:16:23 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 12:16:23 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.4ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 69]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 12:38:12 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 12:38:12 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.6ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (28.0ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 70]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 12:38:17 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 12:38:17 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.2ms)[0m  [1mCREATE TABLE "authentications" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "provider" varchar(255), "uid" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "oauth_token" varchar(255), "oauth_token_secret" varchar(255), "username" varchar(255)) [0m
+  [1m[35m (1.7ms)[0m  CREATE TABLE "debts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "from" varchar(255), "to_id" integer, "amount" varchar(255), "deadline" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "authentication_id" integer, "user_id" integer) 
+  [1m[36m (1.4ms)[0m  [1mCREATE INDEX "index_debts_on_authentication_id" ON "debts" ("authentication_id")[0m
+  [1m[35m (1.4ms)[0m  CREATE INDEX "index_debts_on_user_id" ON "debts" ("user_id")
+  [1m[36m (2.3ms)[0m  [1mCREATE TABLE "delayed_jobs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "priority" integer DEFAULT 0 NOT NULL, "attempts" integer DEFAULT 0 NOT NULL, "handler" text NOT NULL, "last_error" text, "run_at" datetime, "locked_at" datetime, "failed_at" datetime, "locked_by" varchar(255), "queue" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (1.5ms)[0m  CREATE INDEX "delayed_jobs_priority" ON "delayed_jobs" ("priority", "run_at")
+  [1m[36m (1.4ms)[0m  [1mCREATE TABLE "friends" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "surname" varchar(255), "twitterUsername" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "user_id" integer, "email" varchar(255)) [0m
+  [1m[35m (1.3ms)[0m  CREATE INDEX "index_friends_on_user_id" ON "friends" ("user_id")
+  [1m[36m (2.0ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "debt_id" integer, "authentication_token" integer, "confirmation_token" varchar(255), "confirmed_at" datetime, "confirmation_sent_at" datetime, "unconfirmed_email" varchar(255)) [0m
+  [1m[35m (1.3ms)[0m  CREATE INDEX "index_users_on_debt_id" ON "users" ("debt_id")
+  [1m[36m (1.8ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (1.5ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (1.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (1.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (2.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131225085320')
+  [1m[36m (2.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131211115311')[0m
+  [1m[35m (2.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131211121512')
+  [1m[36m (2.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131211123050')[0m
+  [1m[35m (2.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131212162700')
+  [1m[36m (3.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216074447')[0m
+  [1m[35m (2.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131216100735')
+  [1m[36m (1.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216100924')[0m
+  [1m[35m (1.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131216124855')
+  [1m[36m (2.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131216161044')[0m
+  [1m[35m (4.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131217085356')
+  [1m[36m (3.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131217130829')[0m
+  [1m[35m (3.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131219120019')
+  [1m[36m (2.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131225085022')[0m
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (2.0ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.4ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 71]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 12:38:57 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 12:38:57 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (2.3ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.6ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 72]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 13:08:32 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 13:08:32 UTC +00:00]]
+  [1m[35m (2.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.8ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.7ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 73]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 13:10:21 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 13:10:21 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.7ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 74]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 13:11:45 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 13:11:45 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.8ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.8ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 75]]
+  [1m[36m (39.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 13:13:43 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 13:13:43 UTC +00:00]]
+  [1m[35m (1.9ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.8ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.3ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 76]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 13:20:22 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 13:20:22 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.8ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.5ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 77]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 13:20:56 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 13:20:56 UTC +00:00]]
+  [1m[35m (1.7ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.9ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.0ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 78]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 13:58:01 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 13:58:01 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.8ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.9ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 79]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 14:57:12 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 14:57:12 UTC +00:00]]
+  [1m[35m (1.7ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.8ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.5ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 80]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 14:58:13 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 14:58:13 UTC +00:00]]
+  [1m[35m (1.7ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.8ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 81]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 14:59:44 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 14:59:44 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.8ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.7ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 82]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 15:00:23 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 15:00:23 UTC +00:00]]
+  [1m[35m (1.7ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (2.0ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.5ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 83]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 15:06:15 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 15:06:15 UTC +00:00]]
+  [1m[35m (1.7ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.8ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.5ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 84]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 15:23:58 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 15:23:58 UTC +00:00]]
+  [1m[35m (1.7ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.9ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.9ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 85]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 15:25:21 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 15:25:21 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.8ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.5ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 86]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 15:34:45 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 15:34:45 UTC +00:00]]
+  [1m[35m (68.2ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.4ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 87]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 15:35:05 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 15:35:05 UTC +00:00]]
+  [1m[35m (1.7ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.8ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.4ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 88]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 15:42:47 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 15:42:47 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.8ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.9ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 89]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Mon, 30 Dec 2013 16:18:10 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Mon, 30 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Mon, 30 Dec 2013 16:18:10 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36mDelayed::Backend::ActiveRecord::Job Exists (1.8ms)[0m  [1mSELECT 1 AS one FROM "delayed_jobs" LIMIT 1[0m
+  [1m[35mDelayed::Backend::ActiveRecord::Job Load (0.1ms)[0m  SELECT "delayed_jobs".* FROM "delayed_jobs" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.7ms)[0m  DELETE FROM "delayed_jobs" WHERE "delayed_jobs"."id" = ?  [["id", 90]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "delayed_jobs" ("attempts", "created_at", "failed_at", "handler", "last_error", "locked_at", "locked_by", "priority", "queue", "run_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["attempts", 0], ["created_at", Tue, 31 Dec 2013 08:03:27 UTC +00:00], ["failed_at", nil], ["handler", "--- !ruby/object:MailerDebt {}\n\n"], ["last_error", nil], ["locked_at", nil], ["locked_by", nil], ["priority", 0], ["queue", nil], ["run_at", Tue, 31 Dec 2013 00:00:00 UTC +00:00], ["updated_at", Tue, 31 Dec 2013 08:03:27 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
