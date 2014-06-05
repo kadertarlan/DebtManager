@@ -37,7 +37,7 @@ class FriendsController < ApplicationController
   # POST /friends.json
   def create
     @friend = @user.friends.build(params[:friend])
-    @friend.save
+    @friend.save!
     respond_with [@user, @friend]
   end
 

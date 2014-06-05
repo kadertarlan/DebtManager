@@ -19,7 +19,7 @@
 	       <div class="nav-collapse">
 	         <ul class="nav">
 				<% if current_user || devise_controller? %>
-					<li><%= link_to "signed in as a #{current_user.authentications.first }", user_debts_path(current_user) if current_user %></li>
+					<li><%= link_to "signed in as a #{current_user.email }" %></li>
 					<li><%= link_to "Loans", user_debts_path(current_user) if current_user  %></li>
 					<li><%= link_to "Friends", user_friends_path(current_user) if current_user  %></li>
 				<% else %>
